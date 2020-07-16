@@ -18,41 +18,46 @@
         </ul>
     </div>
 
-    <div>
-        <p>Dive loja</p>
+    <div class="titulo-pagina">
+        <h2>Adicionar Produto</h2>
     </div>
     
-    <h2>Adicionar Produto</h2>
-    <form action="#">
-        <div>
-            <label for="link-foto">Link para foto: </label>
-            <input type="url" id="link-foto" name="link-foto">
-        </div>
-        
-        <div>
-            <label for="descricao">Descrição do produto: </label>
-            <!-- Adicione o id apropriado para o input abaixo -->
-            <input type="text" id="descricao" name="descricao">
-        </div>
-        
-        <div>
-            <label for="preco">Preço (em R$): </label>
-            <!-- Adicione o id apropriado e o type para receber números abaixo -->
-            <input type="text" id="preco" name="preco">
-        </div>
-        
-        <div>
-            <!-- Preencha as propriedades necessárias para os elementos abaixo -->
-            <label for="quantidade-disp">Quantidade disponível: </label>
-            <input type="text" id="quantidade-disp" name="quantidade-disp">
-        </div>
+    <div id="formulario">
+        <form action="#">
+            <div class="item">
+                <label for="link-foto">Link para foto: </label>
+                <input type="url" id="link-foto" name="link-foto">
+            </div>
+            
+            <div class="item">
+                <label for="descricao">Descrição do produto: </label>
+                <!-- Adicione o id apropriado para o input abaixo -->
+                <input type="text" id="descricao" name="descricao">
+            </div>
+            
+            <div class="item">
+                <label for="preco">Preço (em R$): </label>
+                <!-- Adicione o id apropriado e o type para receber números abaixo -->
+                <input type="text" id="preco" name="preco">
+            </div>
+            
+            <div class="item">
+                <!-- Preencha as propriedades necessárias para os elementos abaixo -->
+                <label for="quantidade-disp">Quantidade disponível: </label>
+                <input type="text" id="quantidade-disp" name="quantidade-disp">
+            </div>
 
-        <div class="form-add">
-            <!-- Adicione ao type do botão abaixo o valor para que ele submeta o formulário -->
-            <button type="submit">Adicionar</button>
-        </div>
+            <div class="form-add">
+                <!-- Adicione ao type do botão abaixo o valor para que ele submeta o formulário -->
+                <button type="submit">Adicionar</button>
+            </div>
 
-    </form>
+        </form>
+    </div>
+
+    <div id="footer">
+        copy 2020 - Todos os direitos reservados
+    </div>
 
 </body>
 </html>

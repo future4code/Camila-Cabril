@@ -148,3 +148,40 @@ body {
     font-size: 14px;
     margin-top: 40px;
 }
+
+ /*CSS formulario página add-produto*/
+
+ #formulario {
+     display: flex;
+     justify-content: center;
+     height: 61.2vh;
+ }
+
+ form input {
+     display: block;
+     width: 300px;
+     padding: 6px;
+ }
+
+ .item {
+     margin-bottom: 15px;
+ }
+
+ .form-add {
+     display: flex;
+     justify-content: center;
+ }
+
+ .form-add button {
+     /* display: flex;
+     justify-content: center;
+     align-items: center; */
+     width: 200px;
+     padding: 8px;
+     cursor: pointer;
+     background-color: var(--dark-color);
+     color: var(--main-color);
+     border: 0px;
+ }
+
+ 
