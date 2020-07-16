@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/*Css Geral*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --main-color: #f1f1f1;
+    --hover-color: #808080;
+  }
+
+/*Css menu*/
+
+#menu {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#menu span a {
+    color: var(--main-color);
+    font-size: 32px;
+    cursor: pointer;
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+#menu span a:hover {
+    color: var(--hover-color);
+}
+
+#menu > ul {
+    display: flex;
+    list-style: none;
+}
+
+#menu > ul > li {
+    padding: 10px 5px;
+}
+
+#menu > ul > li > a {
+    text-decoration: none;
+    color: var(--main-color);
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 10px 5px;
+}
+
+#menu > ul > li:hover {
+    background-color: var(--hover-color);
+    cursor: pointer;
+}
+
