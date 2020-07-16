@@ -202,3 +202,33 @@ thead > tr > th {
     border: 1px solid black;
 }
 
+/*CSS funcionarios página funcionarios*/
+
+#funcionarios {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f1f1f1;
+    -webkit-box-shadow: 0px 5px 6px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 5px 6px -4px rgba(0,0,0,0.75);
+    box-shadow: 0px 5px 6px -4px rgba(0,0,0,0.75);
+}
+
+#funcionarios > ol {
+    list-style: none;
+    counter-reset: my-awesome-counter;
+    padding: 50px;
+    height: 46vh;
+  }
+
+#funcionarios > ol li {
+    counter-increment: my-awesome-counter;
+  }
+
+#funcionarios > ol li::before {
+    content: counter(my-awesome-counter) ". ";
+    color: red;
+    font-weight: bold;
+  }
+
+
+
