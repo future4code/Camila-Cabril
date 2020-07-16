@@ -184,4 +184,21 @@ body {
      border: 0px;
  }
 
- 
+ /*CSS tabela página ctrl-estroque*/
+
+ #content{
+     display:flex; margin: auto;
+}
+
+.content-table {
+    width: 100%;
+}
+
+thead > tr > th {
+    text-align: start;
+}
+
+.content-table td {
+    border: 1px solid black;
+}
+
