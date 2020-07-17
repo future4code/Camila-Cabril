@@ -4,73 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Controle de Estoque</title>
 </head>
 <body>
-    <div>
-        <p>Dive loja</p>
+    <div id="menu">
+        <span><a href="index.html">DIVE</a></span>
+        <ul>
+            <li><a href="index.html">Página Inicial</a></li>
+            <li><a href="ctrl-estoque.html">Controle de Estoque</a></li>
+            <li><a href="add-produto.html">Adicionar Produto</a></li>
+            <li><a href="funcionarios.html">Funcionários</a></li>
+        </ul>
     </div>
+    <div class="titulo-pagina">
+        <h2>Controle de Estoque</h2>
+    </div>
+
+    <div id="content">    
+        <table class="content-table">
+            <thead>
+                <tr>
+                    <th>Foto</th>
+                    <th>Descrição</th>
+                    <th>Preço (R$)</th>
+                    <th>Quantidade disponível</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="img/camiseta1.jpg" alt="Camiseta Pride" width="50"/></td>
+                    <td> Camiseta Unissex Pride</td>
+                    <td> R$ 39,99 </td>
+                    <td> 10 </td>
+                </tr>
     
-    <div>
-        <a href="index.html">Página Inicial</a>
-        <a href="ctrl-estoque.html">Controle de Estoque</a>
-        <a href="add-produto.html">Adicionar Produto</a>
-        <a href="funcionarios.html">Funcionários</a>
+                <tr>
+                    <td><img src="img/nasa.png" alt="Camiseta Nasa" width="50"/></td>
+                    <td> Camiseta Unissex Nasa</td>
+                    <td> R$ 39,99 </td>
+                    <td> 3 </td>
+                </tr>
+    
+                <tr>
+                    <td><img src="img/meia.jpg" alt="Meia Pride" width="50"/></td>
+                    <td> Meia Unissex Pride </td>
+                    <td> R$ 25,99 </td>
+                    <td> 2 </td>
+                </tr>
+    
+                <tr>
+                    <td><img src="img/cropped.jpg" alt="Corta Vento" width="50"/></td>
+                    <td> Corta Vento Unissex </td>
+                    <td> R$ 69,99 </td>
+                    <td> 5 </td>
+                </tr>
+    
+                <tr>
+                    <td><img src="img/bone.jpg" alt="Boné" width="50"/></td>
+                    <td> Boné Unissex </td>
+                    <td> R$ 29,99 </td>
+                    <td> 3 </td>
+                </tr>
+    
+                <tr>
+                    <td><img src="img/oculos.jpg" alt="Óculos de Sol" width="50"/></td>
+                    <td> Óculos de Sol Unissex </td>
+                    <td> R$ 99,99 </td>
+                    <td> 15 </td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 
-    <h2>Controle de Estoque</h2>
-
-    <table>
-        <tr>
-            <th>Foto</th>
-            <th>Descrição</th>
-            <th>Preço (R$)</th>
-            <th>Quantidade disponível</th>
-        </tr>
-
-        <tr>
-            <td><img src="img/camiseta1.jpg" alt="Camiseta Pride" width="100"/></td>
-            <td> Camiseta Unissex Pride</td>
-            <td> R$ 39,99 </td>
-            <td> 10 </td>
-        </tr>
-
-        <tr>
-            <td><img src="img/nasa.png" alt="Camiseta Nasa" width="100"/></td>
-            <td> Camiseta Unissex Nasa</td>
-            <td> R$ 39,99 </td>
-            <td> 3 </td>
-        </tr>
-
-        <tr>
-            <td><img src="img/meia.jpg" alt="Meia Pride" width="100"/></td>
-            <td> Meia Unissex Pride </td>
-            <td> R$ 25,99 </td>
-            <td> 2 </td>
-        </tr>
-
-        <tr>
-            <td><img src="img/cropped.jpg" alt="Corta Vento" width="100"/></td>
-            <td> Corta Vento Unissex </td>
-            <td> R$ 69,99 </td>
-            <td> 5 </td>
-        </tr>
-
-        <tr>
-            <td><img src="img/bone.jpg" alt="Boné" width="100"/></td>
-            <td> Boné Unissex </td>
-            <td> R$ 29,99 </td>
-            <td> 3 </td>
-        </tr>
-
-        <tr>
-            <td><img src="img/oculos.jpg" alt="Óculos de Sol" width="100"/></td>
-            <td> Óculos de Sol Unissex </td>
-            <td> R$ 99,99 </td>
-            <td> 15 </td>
-        </tr>
-
-    </table>
+    <div id="footer">
+        copy 2020 - Todos os direitos reservados
+    </div>
 
 </body>
 </html>
