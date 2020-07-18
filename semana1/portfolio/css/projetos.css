@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Play:wght@400;700&display=swap');
+
+/*CSS GERAL*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --backgroung-color: #1B1D20;
+    --menu-color: #0E1013;
+    --main-color: #f1f1f1;
+    --second-color: #9536F6;
+    --background-light: #F1EFFF;
+    --card-color: #2F2E41;
+  }
+
+body {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--backgroung-color) ;
+    color: var(--main-color);
+
+}
+
+#projeto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titulo {
+    text-align: center;
+    color: var(--second-color);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.projeto-container {
+    width: 920px;
+    margin: 0 auto;
+}
+
+.projeto-img img {
+    width: 100%;
+}
+
+.projeto-conteudo p {
+    padding-top: 10px;
+}
