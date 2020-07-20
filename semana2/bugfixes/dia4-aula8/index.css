@@ -34,6 +34,10 @@ button:focus {
     color: white;
 }
 
+input[type=text], button {
+    outline: none;
+}
+
 tr > td > img {
     width: 50px;
 }
@@ -127,7 +131,7 @@ div:last-child {
 table {
     table-layout: fixed;
     text-align: center;
-    width: 60% !important; 
+    width: 60% !important;
     margin: auto;
 }
 
