@@ -93,11 +93,7 @@ div img {
 
 
 #container-de-descricao > ol {
-    padding: 15px 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding: 20px 550px;
 }
 
 #descricao {
@@ -125,7 +121,7 @@ div img {
 
 /**
   *
-  *  ESTILOS COMPRAR 
+  *  ESTILOS COMPRAR
   *
   **/
 
