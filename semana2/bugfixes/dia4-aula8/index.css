@@ -27,6 +27,7 @@ input {
 
 button {
     cursor: pointer;
+    font-weight: bold;
 }
 
 button:focus {
