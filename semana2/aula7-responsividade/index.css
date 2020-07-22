@@ -1,0 +1,56 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#main-container > section > div {
+    border: 1px solid black;
+}
+
+#first-block {
+    max-width: 100vw;
+    height: 60px;
+    background-color: red;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.flex > div {
+    flex: 1 1 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.blue-block {
+    height: 100px;
+    background-color: blue;
+}
+
+.yellow-block {
+    height: 100px;
+    background-color: yellow;
+}
+
+.green-block {
+    height: 100px;
+    background-color: green;
+}
+
+.black-block {
+    height: 200px;
+    background-color: black;
+    color: white;
+}
+
+.white-block {
+    height: 100px;
+    background-color: white;
+}
