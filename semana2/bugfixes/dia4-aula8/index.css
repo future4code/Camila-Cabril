@@ -1,6 +1,6 @@
-/**
+/** 
   *
-  *  ESTILOS GERAIS
+  *  ESTILOS GERAIS 
   *
   **/
 
@@ -44,6 +44,10 @@ tr > td > img {
 
 div>p:first-child {
     display: inline-block;
+}
+
+div img {
+    /* background: black; */
 }
 
 .botao-amarelo {
@@ -111,6 +115,9 @@ div>p:first-child {
     padding: 100px 0;
     font-size: 60px;
 }
+
+/* div #container-de-descricao  */
+
 
 /**
   *
