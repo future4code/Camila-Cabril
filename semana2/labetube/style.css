@@ -15,6 +15,10 @@ img {
     display: block;
 }
 
+video {
+    width: 100%;
+}
+
 /*
     ESTILO HEADER
 */
@@ -27,7 +31,8 @@ header {
     align-items: center;
 }
 
-header > span {
+header > a {
+    text-decoration: none;
     font-weight: bold;
     color: #fff;
     font-size: 28px;
@@ -74,4 +79,23 @@ footer {
     justify-content: center;
     align-items: center;
     color: #fff;
+}
+
+/*
+    ESTILO GERAL TELA DE DETALHE DO VÍDEO
+*/
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.container > article {
+    display: flex;
+    flex-direction: column;
+}
+
+.container > article > h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
