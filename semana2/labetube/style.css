@@ -99,3 +99,40 @@ footer {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+
+/*
+    MEDIAS QUERIES
+*/
+
+@media screen and (max-width: 319px) {
+    header > a {
+        font-size: 24px;
+    }
+
+    nav > input {
+        width: 150px;
+    }
+
+    .fixed {
+        position: fixed;
+        bottom: 0;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 877px) {
+    .fixed {
+        position: fixed;
+        bottom: 0;
+    }
+}
+
+@media screen and (max-width: 878px) {
+    footer {
+        position: initial;
+    }
+
+    .container {
+        padding: 10px;
+    }
+}
