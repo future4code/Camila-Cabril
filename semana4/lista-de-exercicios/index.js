@@ -15,3 +15,4 @@
 
 
 // 4.
+//O for precorre a array numeros e faz uma verificação.Salva na variavel numero1 o menor valor encontrado no array numeros no caso -10 e a variavel numero2 recebe o maior valor econtrado no array numeros no caso 1590. O primeiro console imprime -10 e o segundo 1590
