@@ -39,3 +39,15 @@
 
 // interarArray()
 
+
+// 2.
+// const booleano1 = true
+// const booleano2 = false
+// const booleano3 = !booleano2
+// const booleano4 = !booleano3
+
+// 2.a = False
+// 2.b = False
+// 2.c = True
+// 2.d = True
+// 2.e = True
