@@ -80,3 +80,17 @@
 // }
 
 // tipoDeTriangulo(5,4,1)
+
+
+// 5.
+// function compararNumeros(n1,n2){
+//     console.log(`Entrada ${n1} e ${n2}`)
+//     if(n1 > n2){
+//         console.log(`o maior é ${n1}`)
+
+//     }else if(n1 < n2){
+//         console.log(`o maior número é ${n2}`)
+//     }
+// }
+
+// compararNumeros(50,40)
