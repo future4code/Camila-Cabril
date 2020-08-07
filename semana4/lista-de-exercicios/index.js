@@ -56,7 +56,7 @@
 
 // 3.
 // O código não funciona, pois 1 a constante quantidadeDeNumerosPares precisa de um valor atribuido, 2 i precisar ser < que quantidadeDeNumerosPares.
-// function primeiroNumerosPares(){
+// function primeirosNumerosPares(){
 //     const quantidadeDeNumerosPares = 5
 //     let i = 0
 //     while(i < quantidadeDeNumerosPares) {
@@ -65,4 +65,18 @@
 //     }
 // }
 
-// primeiroNumerosPares()
+// primeirosNumerosPares()
+
+
+// 4.
+// function tipoDeTriangulo(a,b,c){
+//     if(a === b && b === a){
+//         console.log(`Triângulo Equilátero`)
+//     }else if(a === b || b === c || a === c){
+//         console.log(`Triângulo Isósceles`)
+//     }else{
+//         console.log(`Triângulo Escaleno`)
+//     }
+// }
+
+// tipoDeTriangulo(5,4,1)
