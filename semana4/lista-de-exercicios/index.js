@@ -51,3 +51,18 @@
 // 2.c = True
 // 2.d = True
 // 2.e = True
+
+
+
+// 3.
+// O código não funciona, pois 1 a constante quantidadeDeNumerosPares precisa de um valor atribuido, 2 i precisar ser < que quantidadeDeNumerosPares.
+// function primeiroNumerosPares(){
+//     const quantidadeDeNumerosPares = 5
+//     let i = 0
+//     while(i < quantidadeDeNumerosPares) {
+//         console.log(i*2)
+//         i++
+//     }
+// }
+
+// primeiroNumerosPares()
